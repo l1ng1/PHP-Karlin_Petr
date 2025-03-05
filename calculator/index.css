@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(65, 64, 64);
+    font-family: monospace;
+}
+
+.calc-bd{
+    width: 400px;
+    margin: 100px auto;
+}
+
+.text{
+    width: 100%;
+    font-size: 30px;
+    
+    border-radius: 4px;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: rgb(158, 157, 157);
+}
+
+.nums{
+    width: 45%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nums button{
+    width: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.ops{
+    width: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ops button{
+    width: 50px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
