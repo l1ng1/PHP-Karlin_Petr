@@ -1,8 +1,7 @@
 <?php 
-    $title = 'Пока-пока, сэнпай <3';
-    require dirname(__DIR__).'/header.php';
+    $title = 'Страница прощания';
+    require dirname(__DIR__).'/header.php'; // подключили хедер 
 ?>
-<body style='background-color: black;'>
-    <h2 style='color: white; text-align: center; margin-top: 40px;'>Bye, <?=$name;?>!</h5>
-</body>
-<?php require dirname(__DIR__).'/footer.php';?>
+    <h5>Bye, <?=$name;?>!</h5>
+<?php require dirname(__DIR__).'/footer.php'; // подключили футер
+    
